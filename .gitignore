@@ -6,6 +6,28 @@ __pycache__/
 # C extensions
 *.so
 
+# MLflow tracking data
+mlruns/
+mlartifacts/
+
+# Data and models
+data/
+datasets/
+models/
+outputs/
+*.ckpt
+*.h5
+*.pt
+*.pkl
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
 # Distribution / packaging
 .Python
 build/
